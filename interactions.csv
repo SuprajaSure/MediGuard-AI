@@ -1,0 +1,48 @@
+drug_1,drug_2,severity,interaction_type,description,clinical_action
+Warfarin,Aspirin,HIGH,Pharmacodynamic,Additive anticoagulant and antiplatelet effect greatly increases bleeding risk,Avoid combination; if necessary monitor INR closely and watch for bleeding
+Warfarin,Ibuprofen,HIGH,Pharmacodynamic,NSAIDs inhibit platelet function and can displace warfarin from protein binding increasing bleeding risk,Avoid NSAIDs with warfarin; use paracetamol for pain
+Warfarin,Ciprofloxacin,HIGH,Pharmacokinetic,Ciprofloxacin inhibits CYP1A2 increasing warfarin levels and INR,Monitor INR closely; may need dose reduction
+Warfarin,Metronidazole,HIGH,Pharmacokinetic,Metronidazole inhibits CYP2C9 metabolism of warfarin increasing anticoagulant effect,Monitor INR; reduce warfarin dose if needed
+Warfarin,Erythromycin,HIGH,Pharmacokinetic,CYP3A4 inhibition increases warfarin exposure and bleeding risk,Monitor INR; consider alternative antibiotic
+Warfarin,Fluoxetine,MODERATE,Pharmacokinetic,Fluoxetine inhibits CYP2C9 increasing warfarin plasma levels,Monitor INR; watch for bleeding signs
+Aspirin,Clopidogrel,MODERATE,Pharmacodynamic,Dual antiplatelet therapy increases bleeding risk though sometimes clinically intended,Use only if clearly indicated (e.g. ACS); monitor for bleeding
+Aspirin,Ibuprofen,MODERATE,Pharmacodynamic,Ibuprofen may competitively inhibit aspirin's antiplatelet effect,Separate doses; take aspirin 30 min before ibuprofen
+Metformin,Furosemide,MODERATE,Pharmacokinetic,Furosemide may increase metformin levels; risk of lactic acidosis,Monitor renal function and metformin levels
+Metformin,Prednisolone,MODERATE,Pharmacodynamic,Corticosteroids cause hyperglycemia opposing metformin's effect,Monitor blood glucose; may need dose adjustment
+Metformin,Dexamethasone,MODERATE,Pharmacodynamic,Corticosteroids raise blood glucose countering antidiabetic therapy,Monitor blood glucose frequently
+Simvastatin,Amlodipine,MODERATE,Pharmacokinetic,Amlodipine inhibits CYP3A4 increasing simvastatin levels and myopathy risk,Limit simvastatin dose to 20mg/day with amlodipine
+Simvastatin,Erythromycin,HIGH,Pharmacokinetic,Erythromycin strongly inhibits CYP3A4 greatly increasing simvastatin exposure and rhabdomyolysis risk,Avoid combination; use alternative antibiotic
+Simvastatin,Ciprofloxacin,MODERATE,Pharmacokinetic,Some fluoroquinolones may affect statin metabolism,Monitor for muscle pain and weakness
+Atorvastatin,Erythromycin,MODERATE,Pharmacokinetic,CYP3A4 inhibition increases atorvastatin levels,Use lowest effective atorvastatin dose; monitor for myopathy
+Fluoxetine,Tramadol,HIGH,Pharmacodynamic,Combined serotonergic effect can precipitate serotonin syndrome; fluoxetine also inhibits tramadol metabolism,Avoid; if needed monitor closely for serotonin syndrome symptoms
+Fluoxetine,Codeine,HIGH,Pharmacokinetic,Fluoxetine inhibits CYP2D6 blocking codeine conversion to morphine reducing efficacy and altering toxicity profile,Avoid; use alternative analgesic
+Sertraline,Tramadol,HIGH,Pharmacodynamic,Serotonin syndrome risk from combined serotonergic action,Avoid combination; use non-serotonergic analgesic
+Sertraline,Codeine,MODERATE,Pharmacokinetic,Sertraline inhibits CYP2D6 affecting codeine metabolism,Use alternative analgesic
+Codeine,Alprazolam,HIGH,Pharmacodynamic,Combined CNS and respiratory depression risk; potentially fatal,Avoid combination; if unavoidable use lowest doses and monitor closely
+Tramadol,Alprazolam,HIGH,Pharmacodynamic,Additive CNS depression and respiratory depression risk,Avoid; if required monitor respiratory rate and consciousness
+Ciprofloxacin,Theophylline,HIGH,Pharmacokinetic,Ciprofloxacin inhibits CYP1A2 dramatically increasing theophylline levels risking toxicity (arrhythmias; seizures),Avoid; use alternative antibiotic or reduce theophylline dose and monitor levels
+Erythromycin,Theophylline,HIGH,Pharmacokinetic,CYP1A2 inhibition increases theophylline levels; toxicity risk,Monitor theophylline levels; reduce dose; consider alternative antibiotic
+Digoxin,Furosemide,HIGH,Pharmacodynamic,Furosemide causes hypokalemia which increases digoxin toxicity risk,Monitor electrolytes and digoxin levels; replace potassium
+Digoxin,Amoxicillin,MODERATE,Pharmacokinetic,Antibiotics may alter gut flora increasing digoxin absorption in some patients,Monitor digoxin levels
+Digoxin,Azithromycin,MODERATE,Pharmacokinetic,Azithromycin may increase digoxin levels by altering gut metabolism,Monitor digoxin levels; watch for toxicity signs
+Spironolactone,Ramipril,HIGH,Pharmacodynamic,Additive potassium retention causes dangerous hyperkalemia,Monitor potassium levels closely; use with caution
+Spironolactone,Losartan,HIGH,Pharmacodynamic,Combined potassium retention causes dangerous hyperkalemia,Monitor potassium levels; avoid if renal function is impaired
+Ramipril,Losartan,HIGH,Pharmacodynamic,Dual RAAS blockade increases risk of renal failure; hyperkalemia; hypotension,Avoid combination; monitor renal function and electrolytes if used
+Lithium,Ibuprofen,HIGH,Pharmacokinetic,NSAIDs reduce renal lithium clearance increasing lithium toxicity risk,Avoid NSAIDs; use paracetamol; monitor lithium levels
+Lithium,Furosemide,HIGH,Pharmacokinetic,Diuretics reduce renal lithium clearance causing toxicity,Monitor lithium levels closely; adjust dose
+Lithium,Metronidazole,MODERATE,Pharmacokinetic,Metronidazole may increase lithium levels,Monitor lithium levels during treatment
+Phenytoin,Fluoxetine,MODERATE,Pharmacokinetic,Fluoxetine inhibits phenytoin metabolism increasing levels and toxicity risk,Monitor phenytoin levels; watch for toxicity
+Phenytoin,Omeprazole,MODERATE,Pharmacokinetic,Omeprazole may increase phenytoin levels,Monitor phenytoin levels
+Phenytoin,Metronidazole,HIGH,Pharmacokinetic,Metronidazole inhibits phenytoin metabolism increasing toxicity risk,Monitor phenytoin levels closely
+Prednisolone,Ibuprofen,MODERATE,Pharmacodynamic,Increased risk of GI ulceration and bleeding,Use gastroprotection; prefer paracetamol for pain
+Levothyroxine,Omeprazole,MODERATE,Pharmacokinetic,PPIs may reduce levothyroxine absorption,Take levothyroxine 30-60 min before PPI
+Levothyroxine,Metformin,LOW,Pharmacokinetic,Possible minor reduction in levothyroxine absorption,Separate administration times
+Metronidazole,Codeine,LOW,Pharmacodynamic,Minor additive CNS effects,Monitor for drowsiness
+Amlodipine,Metoprolol,MODERATE,Pharmacodynamic,Additive cardiac depression; bradycardia and AV block risk,Monitor heart rate and blood pressure; usually manageable
+Insulin Glargine,Metoprolol,MODERATE,Pharmacodynamic,Beta-blockers mask hypoglycemia signs (except sweating),Educate patient; monitor glucose carefully
+Insulin Glargine,Prednisolone,HIGH,Pharmacodynamic,Corticosteroids cause significant hyperglycemia requiring insulin dose adjustment,Increase insulin monitoring; adjust doses
+Omeprazole,Clopidogrel,HIGH,Pharmacokinetic,Omeprazole inhibits CYP2C19 reducing clopidogrel activation and antiplatelet effect,Prefer pantoprazole over omeprazole with clopidogrel
+Pantoprazole,Clopidogrel,LOW,Pharmacokinetic,Minimal CYP2C19 inhibition compared to omeprazole,Preferred PPI choice with clopidogrel
+Azithromycin,Ciprofloxacin,HIGH,Pharmacodynamic,Additive QT prolongation increasing arrhythmia risk,Avoid combination; monitor ECG if unavoidable
+Chloramphenicol,Warfarin,HIGH,Pharmacokinetic,Chloramphenicol inhibits warfarin metabolism causing markedly elevated INR,Monitor INR closely; reduce warfarin dose
+Chloramphenicol,Phenytoin,HIGH,Pharmacokinetic,Chloramphenicol inhibits phenytoin metabolism causing toxicity,Monitor phenytoin levels closely
